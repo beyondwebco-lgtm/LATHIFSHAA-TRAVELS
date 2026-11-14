@@ -29,10 +29,7 @@ app.get('/api/info', (req, res) => {
       main: 'Your Journey, Our Responsibility!',
       secondary: 'Travel Beyond Boundaries, Experience Comfort Everywhere.'
     },
-    phones: {
-      primary: '+91 9052564746',
-      secondary: '+91 9491400726'
-    },
+    phone: '+91 9052564746',
     email: 'Lathifshaatravels2322@gmail.com',
     legal: {
       gst: '37EQTPS9220K1ZV',
@@ -64,7 +61,7 @@ if (require.main === module) {
     console.log(`🚗 LATHIFSHAA TRAVELS - Premium Travel Website`);
     console.log(`🌐 Server running at: http://localhost:${PORT}`);
     console.log(`📍 Malkapuram, Visakhapatnam, Andhra Pradesh – 530005`);
-    console.log(`📞 Contacts: +91 9052564746 | +91 9491400726 (Shaik Basha)`);
+    console.log(`📞 Contact: +91 9052564746 (Shaik Basha)`);
     console.log(`✉️ Email: Lathifshaatravels2322@gmail.com | GST: 37EQTPS9220K1ZV`);
     console.log(`=============================================================`);
   });

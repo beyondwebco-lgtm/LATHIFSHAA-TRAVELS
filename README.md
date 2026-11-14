@@ -17,8 +17,7 @@ Inspired by top-tier Indian travel and car rental portals (such as D.D.S Car Tra
   - **Secondary Tagline**: *"Travel Beyond Boundaries, Experience Comfort Everywhere."*
 
 - **Business & Legal Information**:
-  - **Primary Phone**: `+91 9052564746` (WhatsApp & Call)
-  - **Secondary Phone**: `+91 9491400726` (24/7 Hotline)
+  - **Phone**: `+91 9052564746` (WhatsApp & Call)
   - **Email**: `Lathifshaatravels2322@gmail.com`
   - **GST Number**: `37EQTPS9220K1ZV`
   - **PAN Number**: `EQTPS9220K`
@@ -117,7 +116,7 @@ http://localhost:3000
 ## 📞 Business Contact
 
 - **Proprietor**: Shaik Basha
-- **Phone**: +91 9052564746 / +91 9491400726
+- **Phone**: +91 9052564746
 - **Email**: Lathifshaatravels2322@gmail.com
 - **Office**: Malkapuram, Visakhapatnam, Andhra Pradesh – 530005, India.
 
