@@ -553,8 +553,8 @@ button, input, select, textarea {
   min-height: calc(100vh - 85px);
   display: flex;
   align-items: center;
-  background: linear-gradient(180deg, rgba(5, 6, 8, 0.8) 0%, rgba(10, 12, 18, 0.94) 100%),
-              url('https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1920&q=80') center center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(5, 6, 8, 0.76) 0%, rgba(10, 12, 18, 0.92) 100%),
+              url('/images/innova-crysta-hero.jpg') center center/cover no-repeat;
   background-attachment: fixed;
   overflow: hidden;
   padding: 5rem 0 5rem 0;
