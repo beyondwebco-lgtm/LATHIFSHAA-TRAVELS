@@ -19,7 +19,7 @@ Inspired by top-tier Indian travel and car rental portals (such as D.D.S Car Tra
 - **Business & Legal Information**:
   - **Primary Phone**: `+91 9052564746` (WhatsApp & Call)
   - **Secondary Phone**: `+91 9491400726` (24/7 Hotline)
-  - **Email**: `basha3394@yahoo.com`
+  - **Email**: `Lathifshaatravels2322@gmail.com`
   - **GST Number**: `37EQTPS9220K1ZV`
   - **PAN Number**: `EQTPS9220K`
   - **Registered Address**: Ground Floor, Building No: 71-31-737/1, Main Road, Near Maridimamba Temple, Kranthinagar, Malkapuram, Visakhapatnam, Andhra Pradesh – 530005, India.
@@ -118,7 +118,7 @@ http://localhost:3000
 
 - **Proprietor**: Shaik Basha
 - **Phone**: +91 9052564746 / +91 9491400726
-- **Email**: basha3394@yahoo.com
+- **Email**: Lathifshaatravels2322@gmail.com
 - **Office**: Malkapuram, Visakhapatnam, Andhra Pradesh – 530005, India.
 
 © 2026 Lathifshaa Travels. All Rights Reserved.

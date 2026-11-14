@@ -33,7 +33,7 @@ app.get('/api/info', (req, res) => {
       primary: '+91 9052564746',
       secondary: '+91 9491400726'
     },
-    email: 'basha3394@yahoo.com',
+    email: 'Lathifshaatravels2322@gmail.com',
     legal: {
       gst: '37EQTPS9220K1ZV',
       pan: 'EQTPS9220K'
@@ -65,7 +65,7 @@ if (require.main === module) {
     console.log(`🌐 Server running at: http://localhost:${PORT}`);
     console.log(`📍 Malkapuram, Visakhapatnam, Andhra Pradesh – 530005`);
     console.log(`📞 Contacts: +91 9052564746 | +91 9491400726 (Shaik Basha)`);
-    console.log(`✉️ Email: basha3394@yahoo.com | GST: 37EQTPS9220K1ZV`);
+    console.log(`✉️ Email: Lathifshaatravels2322@gmail.com | GST: 37EQTPS9220K1ZV`);
     console.log(`=============================================================`);
   });
 }
