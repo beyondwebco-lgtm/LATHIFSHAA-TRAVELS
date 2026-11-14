@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 // Company meta information API endpoint
 app.get('/api/info', (req, res) => {
   res.json({
-    companyName: 'LATHIFSHAA TRAVELS & AGENCY',
+    companyName: 'LATHIFSHAA TRAVELS',
     proprietor: 'SHAIK BASHA',
     established: 2016,
     experience: '10+ Years',
@@ -61,7 +61,7 @@ app.get('*', (req, res) => {
 if (require.main === module) {
   app.listen(PORT, () => {
     console.log(`=============================================================`);
-    console.log(`🚗 LATHIFSHAA TRAVELS & AGENCY - Premium Travel Website`);
+    console.log(`🚗 LATHIFSHAA TRAVELS - Premium Travel Website`);
     console.log(`🌐 Server running at: http://localhost:${PORT}`);
     console.log(`📍 Malkapuram, Visakhapatnam, Andhra Pradesh – 530005`);
     console.log(`📞 Contacts: +91 9052564746 | +91 9491400726 (Shaik Basha)`);

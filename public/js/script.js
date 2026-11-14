@@ -1,5 +1,5 @@
 /**
- * LATHIFSHAA TRAVELS & AGENCY - Main Client JavaScript
+ * LATHIFSHAA TRAVELS - Main Client JavaScript
  * Interactive UI, Form Validation, WhatsApp Integration, Filter Tabs & Scroll Effects
  */
 
@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Structured WhatsApp Message Formatting
       const waMessage = 
-`*LATHIFSHAA TRAVELS & AGENCY - NEW BOOKING ENQUIRY*
+`*LATHIFSHAA TRAVELS - NEW BOOKING ENQUIRY*
 =========================================
 *Customer Name:* ${name}
 *Mobile Number:* ${phone}
@@ -284,7 +284,7 @@ _Proprietor: Shaik Basha | Malkapuram, Visakhapatnam_`;
       }
 
       const waMsg = 
-`*LATHIFSHAA TRAVELS & AGENCY - QUICK MESSAGE*
+`*LATHIFSHAA TRAVELS - QUICK MESSAGE*
 =========================================
 *Name:* ${cName}
 *Phone:* ${cPhone}

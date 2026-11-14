@@ -1,6 +1,6 @@
-# 🚗 Lathifshaa Travels & Agency — Premium Travel Website
+# 🚗 Lathifshaa Travels — Premium Travel Website
 
-A beautiful, modern, premium-looking, fully responsive static travel website built for **LATHIFSHAA TRAVELS & AGENCY** (Proprietor: **Shaik Basha**), established in 2016 in Visakhapatnam, Andhra Pradesh.
+A beautiful, modern, premium-looking, fully responsive static travel website built for **LATHIFSHAA TRAVELS** (Proprietor: **Shaik Basha**), established in 2016 in Visakhapatnam, Andhra Pradesh.
 
 Inspired by top-tier Indian travel and car rental portals (such as D.D.S Car Travels), this project is crafted with high visual fidelity, seamless WhatsApp booking integration, real vehicle categories, clear legal and business information, and high performance.
 
@@ -9,7 +9,7 @@ Inspired by top-tier Indian travel and car rental portals (such as D.D.S Car Tra
 ## 🌟 Key Highlights & Features
 
 - **Company Identity & Branding**:
-  - **Company Name**: LATHIFSHAA TRAVELS & AGENCY
+  - **Company Name**: LATHIFSHAA TRAVELS
   - **Proprietor**: SHAIK BASHA
   - **Established**: 2016 (10+ Years of Excellence)
   - **Location**: Visakhapatnam, Andhra Pradesh, India
@@ -121,5 +121,5 @@ http://localhost:3000
 - **Email**: basha3394@yahoo.com
 - **Office**: Malkapuram, Visakhapatnam, Andhra Pradesh – 530005, India.
 
-© 2026 Lathifshaa Travels & Agency. All Rights Reserved.
+© 2026 Lathifshaa Travels. All Rights Reserved.
 
