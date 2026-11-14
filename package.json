@@ -1,0 +1,24 @@
+{
+  "name": "lathifshaa-travels",
+  "version": "1.0.0",
+  "description": "Premium travel and transportation website for Lathifshaa Travels",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "travel",
+    "transportation",
+    "car-rental",
+    "bus-hire",
+    "visakhapatnam",
+    "india-travel"
+  ],
+  "author": "Lathifshaa Travels (Shaik Basha)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
+

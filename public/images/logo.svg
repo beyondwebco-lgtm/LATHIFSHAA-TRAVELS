@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="100%" height="100%">
+  <defs>
+    <!-- Premium Gold Gradient -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="45%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+
+    <!-- Deep Navy / Carbon Road Gradient -->
+    <linearGradient id="roadGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#091326"/>
+      <stop offset="50%" stop-color="#111f38"/>
+      <stop offset="100%" stop-color="#091326"/>
+    </linearGradient>
+
+    <!-- Warm Amber Hue for Oval Backdrop -->
+    <linearGradient id="amberDiskGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="50%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow -->
+    <filter id="logoGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#f59e0b" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- ================= EMBLEM GROUP (TILTED ROAD & CAR) ================= -->
+  <g transform="translate(300, 115)">
+    <!-- Tilted coordinate space: ~ -21 degrees -->
+    <g transform="rotate(-21)">
+      
+      <!-- 1. Background Oval Disk -->
+      <ellipse cx="0" cy="-12" rx="160" ry="62" fill="url(#amberDiskGradient)"/>
+
+      <!-- 2. Inner Glow / Light Reflection on Oval -->
+      <path d="M -130 -15 C -80 -48 80 -48 130 -15 C 70 -38 -70 -38 -130 -15 Z" fill="#fef3c7" opacity="0.35"/>
+
+      <!-- 3. Curved Highway Road (Sweeping Orbit underneath the car) -->
+      <path d="M -165 14 
+               C -140 48, -40 76, 50 68 
+               C 115 62, 165 35, 172 16 
+               C 160 30, 110 50, 48 54 
+               C -35 58, -130 35, -155 4 
+               C -162 -5, -165 5, -165 14 Z" 
+            fill="url(#roadGradient)" stroke="#f59e0b" stroke-width="1.5"/>
+
+      <!-- 4. Dashed White Road Lane Center Markings -->
+      <path d="M -145 22 C -70 54, 40 56, 150 24" 
+            fill="none" 
+            stroke="#ffffff" 
+            stroke-width="3.5" 
+            stroke-dasharray="12, 10" 
+            stroke-linecap="round"/>
+
+      <!-- 5. Sleek Luxury Car Silhouette (Driven upwards on the curve) -->
+      <g transform="translate(10, 12)">
+        
+        <!-- Car Main Body (Crisp Pure White) -->
+        <path d="M -115 12 
+                 C -105 5, -95 -2, -80 -8 
+                 C -65 -15, -45 -34, -20 -44 
+                 C 5 -54, 45 -54, 75 -44 
+                 C 98 -36, 112 -22, 128 -14 
+                 C 142 -7, 146 0, 148 8 
+                 C 144 14, 134 16, 122 17 
+                 C 118 8, 108 2, 94 2 
+                 C 80 2, 70 8, 66 17 
+                 L -34 17 
+                 C -38 8, -48 2, -62 2 
+                 C -76 2, -86 8, -90 17 
+                 C -102 17, -112 16, -115 12 Z" 
+              fill="#ffffff" 
+              filter="url(#logoGlow)"/>
+
+        <!-- Car Windows (Dark tinted navy negative space) -->
+        <!-- Rear / Side Window 1 -->
+        <path d="M -42 -14 
+                 C -35 -24, -22 -35, -5 -40 
+                 L -5 -12 
+                 L -40 -12 
+                 C -42 -12, -43 -13, -42 -14 Z" 
+              fill="#0b1329"/>
+
+        <!-- Front Windshield & Front Side Window 2 -->
+        <path d="M 5 -40 
+                 C 25 -42, 55 -38, 75 -30 
+                 C 85 -25, 96 -18, 102 -12 
+                 L 5 -12 Z" 
+              fill="#0b1329"/>
+
+        <!-- Window Pillar / Divider Line -->
+        <line x1="0" y1="-42" x2="0" y2="-10" stroke="#ffffff" stroke-width="3"/>
+
+        <!-- Door Cut Accent Line -->
+        <line x1="-5" y1="-6" x2="-5" y2="12" stroke="#cbd5e1" stroke-width="1.8"/>
+        <!-- Door Handles -->
+        <rect x="-18" y="-4" width="7" height="2" rx="1" fill="#94a3b8"/>
+        <rect x="22" y="-4" width="7" height="2" rx="1" fill="#94a3b8"/>
+
+        <!-- Rear Wheel Well & Alloy Wheel -->
+        <circle cx="-62" cy="14" r="14" fill="#091326" stroke="#d97706" stroke-width="2.5"/>
+        <circle cx="-62" cy="14" r="5" fill="#f59e0b"/>
+        <!-- Wheel Spokes -->
+        <path d="M -62 3 L -62 25 M -73 14 L -51 14 M -70 6 L -54 22 M -70 22 L -54 6" 
+              stroke="#cbd5e1" stroke-width="1.6"/>
+
+        <!-- Front Wheel Well & Alloy Wheel -->
+        <circle cx="94" cy="14" r="14" fill="#091326" stroke="#d97706" stroke-width="2.5"/>
+        <circle cx="94" cy="14" r="5" fill="#f59e0b"/>
+        <!-- Wheel Spokes -->
+        <path d="M 94 3 L 94 25 M 83 14 L 105 14 M 86 6 L 102 22 M 86 22 L 102 6" 
+              stroke="#cbd5e1" stroke-width="1.6"/>
+
+      </g>
+      
+    </g>
+  </g>
+
+  <!-- ================= TYPOGRAPHY (MATCHING LOGO FONT) ================= -->
+  <!-- Main Brand Name: LATHIFSHAA -->
+  <text x="300" y="248" 
+        font-family="'Outfit', 'Plus Jakarta Sans', -apple-system, sans-serif" 
+        font-size="34" 
+        font-weight="900" 
+        fill="#f59e0b" 
+        text-anchor="middle" 
+        letter-spacing="5">
+    LATHIFSHAA
+  </text>
+
+  <!-- Subtitle: TRAVELS & AGENCY -->
+  <text x="300" y="280" 
+        font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" 
+        font-size="14" 
+        font-weight="700" 
+        fill="#ffffff" 
+        text-anchor="middle" 
+        letter-spacing="6">
+    TRAVELS &amp; AGENCY
+  </text>
+
+  <!-- Est. Badge / Underline Accent -->
+  <line x1="160" y1="298" x2="250" y2="298" stroke="#d97706" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="300" cy="298" r="3" fill="#fbbf24"/>
+  <text x="300" y="312" 
+        font-family="'Plus Jakarta Sans', sans-serif" 
+        font-size="9.5" 
+        font-weight="600" 
+        fill="#94a3b8" 
+        text-anchor="middle" 
+        letter-spacing="2">
+    ESTD. 2016 &bull; VISAKHAPATNAM
+  </text>
+  <line x1="350" y1="298" x2="440" y2="298" stroke="#d97706" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

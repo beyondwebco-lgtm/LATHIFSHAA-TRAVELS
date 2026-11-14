@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="amberBg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="50%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Dark Circle -->
+  <rect width="64" height="64" rx="14" fill="#060b18"/>
+  <g transform="translate(32, 32)">
+    <g transform="rotate(-21) scale(0.18)">
+      <!-- Oval Disk -->
+      <ellipse cx="0" cy="-12" rx="145" ry="58" fill="url(#amberBg)"/>
+      <!-- Road -->
+      <path d="M -155 14 C -130 46, -30 72, 50 64 C 110 58, 155 32, 162 14 C 150 28, 100 46, 44 50 C -35 54, -120 32, -145 4 Z" fill="#091326" stroke="#fbbf24" stroke-width="3"/>
+      <!-- Road Dash -->
+      <path d="M -130 22 C -60 52, 40 54, 140 22" fill="none" stroke="#ffffff" stroke-width="7" stroke-dasharray="16, 14"/>
+      <!-- Car Body -->
+      <path d="M -105 12 C -95 5, -85 -2, -70 -8 C -55 -15, -40 -30, -18 -40 C 5 -50, 40 -50, 68 -40 C 90 -32, 102 -20, 118 -12 C 130 -5, 134 2, 136 8 L 58 14 L -28 14 Z" fill="#ffffff"/>
+      <circle cx="-54" cy="14" r="13" fill="#060b18" stroke="#d97706" stroke-width="3"/>
+      <circle cx="86" cy="14" r="13" fill="#060b18" stroke="#d97706" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

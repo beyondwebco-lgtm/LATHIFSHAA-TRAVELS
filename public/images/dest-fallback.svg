@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bgGradD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1d38"/>
+      <stop offset="100%" stop-color="#060b18"/>
+    </linearGradient>
+    <linearGradient id="goldGradD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bgGradD)"/>
+  <circle cx="300" cy="180" r="90" fill="rgba(245, 158, 11, 0.08)"/>
+  <path d="M300 110 C270 110 245 135 245 165 C245 205 300 260 300 260 C300 260 355 205 355 165 C355 135 330 110 300 110 Z" fill="url(#goldGradD)"/>
+  <circle cx="300" cy="160" r="16" fill="#0f1d38"/>
+  <text x="300" y="320" font-family="'Outfit', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Explore India With Us</text>
+  <text x="300" y="350" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Lathifshaa Travels &amp; Agency</text>
+</svg>
+
