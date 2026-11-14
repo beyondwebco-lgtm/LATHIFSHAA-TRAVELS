@@ -466,10 +466,10 @@ button, input, select, textarea {
 .nav-menu {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1.8rem;
+  justify-content: flex-end;
+  gap: 2rem;
   list-style: none;
-  margin: 0;
+  margin: 0 0 0 auto;
   padding: 0;
   flex-shrink: 0;
 }
@@ -2409,10 +2409,10 @@ button, input, select, textarea {
 
 @media (max-width: 1199px) {
   .nav-menu {
-    gap: 1.05rem;
+    gap: 1.5rem;
   }
   .nav-link {
-    font-size: 0.86rem;
+    font-size: 0.92rem;
   }
   .hero-title {
     font-size: 2.9rem;
