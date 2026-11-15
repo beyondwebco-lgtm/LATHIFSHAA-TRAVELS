@@ -13,6 +13,17 @@ app.use(express.static(path.join(__dirname, 'public'), {
   maxAge: '1d'
 }));
 
+// SEO - robots.txt and sitemap.xml endpoints
+app.get('/robots.txt', (req, res) => {
+  res.type('text/plain');
+  res.sendFile(path.join(__dirname, 'public', 'robots.txt'));
+});
+
+app.get('/sitemap.xml', (req, res) => {
+  res.type('application/xml');
+  res.sendFile(path.join(__dirname, 'public', 'sitemap.xml'));
+});
+
 // Main landing page route
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'index.html'));

@@ -1,0 +1,6 @@
+# robots.txt for Lathifshaa Travels Visakhapatnam
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://lathifshaatravels.com/sitemap.xml

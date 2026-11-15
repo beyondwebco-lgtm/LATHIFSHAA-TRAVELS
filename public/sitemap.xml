@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://lathifshaatravels.com/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://lathifshaatravels.com/images/innova-crysta.jpg</image:loc>
+      <image:title>Lathifshaa Travels - Best Car Rental in Vizag</image:title>
+      <image:caption>Toyota Innova Crysta 7-seater car rental in Visakhapatnam</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://lathifshaatravels.com/images/force-urbania.jpg</image:loc>
+      <image:title>Force Urbania Luxury Van Hire Visakhapatnam</image:title>
+      <image:caption>Luxury Force Urbania hire for corporate and family tours in Vizag</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://lathifshaatravels.com/images/ac-large-bus.jpg</image:loc>
+      <image:title>Luxury AC Bus Hire Visakhapatnam</image:title>
+      <image:caption>Large AC and Non-AC passenger buses in Vizag for weddings and tours</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://lathifshaatravels.com/#about</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lathifshaatravels.com/#vehicles</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lathifshaatravels.com/#services</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lathifshaatravels.com/#destinations</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lathifshaatravels.com/#booking</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lathifshaatravels.com/#faq</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lathifshaatravels.com/#contact</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
